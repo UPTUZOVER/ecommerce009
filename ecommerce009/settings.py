@@ -49,6 +49,8 @@ TEMPLATES = [
     },
 ]
 
+
+
 WSGI_APPLICATION = 'ecommerce009.wsgi.application'
 
 AUTH_USER_MODEL = 'accounts.Account'
@@ -88,6 +90,7 @@ STATIC_ROOT = str(BASE_DIR / '/static/')
 STATICFILES_DIRS = [
     str(BASE_DIR / 'ecommerce009/static'),
 ]
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = str(BASE_DIR / 'media')
